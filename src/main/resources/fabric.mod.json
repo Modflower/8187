@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "flwr-8187",
+	"version": "${version}",
+	"name": "MC-8187 / 2x2 Surrounded Saplings Fix",
+	"description": "Fixes MC-8187, allowing 2x2 of saplings to ignore neighbouring blocks.\n\nWanted by blackstorm118.\n\n\"Compatibility cockroaches scare me deeply\" Ennui, 2023",
+	"authors": [
+		"Ampflower"
+	],
+	"license": [
+		"Zlib"
+	],
+	"contact": {
+		"sources": "https://github.com/${githubRepository}",
+		"issues": "https://github.com/${githubRepository}/issues",
+		"discord": "https://discord.gg/EmPS9y9"
+	},
+	"icon": "assets/flwr-8187/pack.png",
+	"environment": "*",
+	"mixins": [
+		"flwr-8187.mixin.json"
+	],
+	"depends": {
+		"minecraft": ">=${minecraftRequired}",
+		"fabricloader": ">=0.12.0",
+		"java": ">=${java}"
+	}
+}

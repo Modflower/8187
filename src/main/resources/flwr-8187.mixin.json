@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "gay.ampflower.flwr8187.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"MixinTreeFeature"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
